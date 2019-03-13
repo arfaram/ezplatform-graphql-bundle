@@ -20,7 +20,7 @@ Queries look like this:
       body { html }
       image {
         name
-        variations(alias: large) { uri }
+        variations(identifier: large) { uri }
       }
     }
     folders {
